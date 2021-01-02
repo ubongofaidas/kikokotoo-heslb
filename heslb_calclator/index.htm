@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="assets/css/main.css" rel="stylesheet"/>
+        <link href="assets/fonts/fontawesome/css/all.css" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+        <link href="assets/images/hslb.png" type="image/x-icon" rel="shortcut icon"/>
+        <title>KIKOKOTOO-HESLB|MADE WITH LOVE BY MAHENDA</title>
+    </head>
+    <body>
+        <div class="home jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="caption">
+                            <div class="caption-body">
+                                <h2>KIKOKOTO0-HESLB</h2>
+                                <h4 class="text-uppercase">Kokotoa deni lako kwa usahihi bila shida kwa kasi.</h4>
+                                <p>Kikokotozi hiki kitasaidia wewe kama mnufaika wa mkopo wa elimu ya juu, kufahamu na kukumbuka kiasi unachodaiwa na bodi ya mikopo ya elimu ya juu pindi utakapoajiriwa, tumezingatia sheria ya 2016.</p>
+								<button class="btn btn-lg btn-success rounded-0 clt-btn">Kokotoa <i class="fas fa-calculator"></i></button>
+						   </div>
+                        </div> 
+					</div>
+                </div>
+            </div>
+            <div class="copyright-text">
+                <div class="container">
+                    <p class="c-text d-inline">© <span id="year"></span> Heslb app by Mahenda</p>
+                    <ul class="unstyled-list d-inline float-right">
+                        <li class="list-item d-inline"><a href="https://www.linkedin.com/in/jeremia-mathayo-638771112/" class="text-decoration-none"><i class="fab fa-1x fa-linkedin"></i></a></li>
+                        <li class="list-item d-inline"><a href="https://www.github.com/ubongofaidas" class="text-decoration-none"><i class="fab fa-1x fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div class="calculator d-none">
+			<div class="container">
+				<div class="row" id="card-calculate">
+					<div class="col-lg-4">
+                        <button class="btn btn-success rounded-0 mb-2 clt-btn">Go back <i class="fas fa-home"></i></button>
+						<div class="card w-100 rounded-0">
+							<div class="card-body">
+								<div class="inst">
+									<p><b>Angalizo: </b>Programu hii haikutolewa na HESLB ila ni sehemu ya kuongeza ujuzi wangu mwenyewe na imezingatia sheria ya mikopo ya elimu ya juu ya mwaka 2016.</p>
+								</div>
+								<form method="post" class="" id="calcate-form">
+									<div class="form-group">
+										<label for="debt" class="col-form-label">Ingiza jumla ya mkopo uliopatiwa:</label>
+										<input type="text" class="form-control rounded-0" placeholder="mfano, 30000000" name="debt" id="debt">
+                                        <small id="debt-err" class="text-danger d-none">Haujaweka thamani sahihi.</small>
+									</div>
+									<div class="form-group">
+										<label for="salary" class="col-form-label">Ingiza mshahara wako kwa sasa:</label>
+										<input type="text" class="form-control rounded-0" placeholder="mfano 1500000" name="salary" id="salary">
+                                        <small id="salary-err" class="text-danger d-none"> Haujaweka thamani sahihi.</small>
+									</div>
+                                    <!--Will be used in the future-->
+                                    <div class="form-group d-none">
+                                        <button type="submit" name="calculate" class="btn btn-lg btn-success rounded-0 ctl-btn-c">Kokotoa</button>
+                                    </div>
+								</form>
+							</div>
+						</div>
+					</div>
+                    <div class="col-lg-8" id="screen">
+						<div class="card w-100 rounded-0 mt-5">
+							<div class="card-body">
+                                <strong>Ukokotozi kwa Mwezi</strong>
+                                <p>Baada ya makato ya HESLB kwa mwezi:</p>
+                                <small>Mshahara unaobaki: <b id="rem_slr_mth"></b> Tshs/mwezi</small><br>
+                                <small>Deni linalobaki: <b id="dbt_rem_mth"></b> Tshs/mwezi</small><br><br>
+                                <strong>Ukokotozi kwa Mwaka:</strong>
+                                <p>Baada ya makato ya HESLB kwa mwaka:</p>
+                                <small>Mshahara wako utakuwa: <b id="rem_slr_yr"></b> Tshs/mwaka</small><br>
+                                <small>Deni litakalobakia: <b id="dbt_rem_yr"></b> Tshs/mwaka</small><br><br>
+                                <strong>Kumbuka deni uongezeka kila Mwaka:</strong>
+                                <p>Deni la Mwaka unaofuata ni:<br><b id="incr_dbt_nxt_yr"></b> Tshs</p>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+            <div class="copyright-text">
+                <div class="container">
+                    <p class="c-text d-inline">© <span id="year"></span> Heslb calclator by Mahenda</p>
+                    <ul class="unstyled-list d-inline float-right">
+                        <li class="list-item d-inline"><a href="https://www.linkedin.com/in/jeremia-mathayo-638771112/" class="text-decoration-none"><i class="fab fa-1x fa-linkedin"></i></a></li>
+                        <li class="list-item d-inline"><a href="https://www.github.com/ubongofaidas" class="text-decoration-none"><i class="fab fa-1x fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+		<script src="assets/js/jquery.min.js"></script> 
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>  
+    </body>
+</html>

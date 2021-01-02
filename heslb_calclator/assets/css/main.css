@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+}
+/*jumbotron*/
+.home {
+	background: url(../images/header/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0;
+}
+.caption, #card-calculate {
+    margin-top: 10rem;
+}
+.caption-body h2 {
+    font-size: 56px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.3;
+    text-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 3px;;
+}
+.caption-body h4 {
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+.caption-body p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+.caption-body .btn {
+    margin-top: 15px;
+}
+.calculator {
+	background: rgba(226, 226, 226, 0.76);
+    position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0;
+}
+.card {
+    padding: 10px;
+	border: none;
+}
+#card-calculate input {
+    background: transparent;
+    border-color: #000000;
+    outline: none;
+}
+.btn {
+    outline: none;
+}
+.copyright-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0 10px 0;
+}
+.home .copyright-text {
+    border-top: 1px solid rgba(195, 195, 195, 0.25);
+    background: rgba(0, 0, 0, 0.37);
+    color: white;
+}
+.home .fa-linkedin,.home .fa-github {
+    color: #ffffff;
+}
+.calculator .copyright-text {
+    background: #ffffff;
+}
+.copyright-text .c-text {
+    margin: 0;
+}
+.calculator .fa-linkedin {
+    color: #5555dd;
+}
+.calculator .fa-github {
+    color: #000000;
+}
+@media (max-width: 768px){
+	.navbar .container {
+		margin: 0;
+	}
+	.navbar-button-toggled {
+		background: #000000;
+	}
+	.caption-body h1 {
+		font-size: 30px;
+	}
+	.caption-body h4 {
+		font-size: 20px;
+	}
+	.caption-body p {
+		font-size: 12px;
+		padding: 0 10px 0 10px;
+	}
+	.caption-body button {
+		font-size: 12px;
+	}
+
+}
